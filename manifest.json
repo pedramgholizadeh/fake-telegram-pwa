@@ -1,6 +1,6 @@
 {
-    "name": "My Custom App",
-    "short_name": "Custom TG",
+    "name": "Rubikar",
+    "short_name": "Rubikar",
     "start_url": "index.html",
     "display": "standalone",
     "background_color": "#ffffff",
