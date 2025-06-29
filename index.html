@@ -20,7 +20,11 @@
     </style>
 </head>
 <body>
-    <iframe src="https://web.telegram.org" title="Telegram Web"></iframe>
+    <script>
+        setTimeout(() => {
+            window.location.href = "https://web.telegram.org";
+        }, 20000); // 20 seconds delay
+    </script>
     <script>
         if ('serviceWorker' in navigator) {
             window.addEventListener('load', () => {
